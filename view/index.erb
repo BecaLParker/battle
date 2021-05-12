@@ -1,0 +1,14 @@
+
+<h1>I am a Cat and my name is <%= @name %></h1>
+
+<div style="border: 2px dashed red;">
+    <img src="https://i.imgur.com/jFaSxym.png">
+</div>
+<% if @name.nil? %>
+<form action="/named-cat" action="/form" method="post">
+    
+    <input type="text" name="name">
+    <input type="submit" value="Submit">
+
+</form>
+<% end %>
