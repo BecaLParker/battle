@@ -11,7 +11,7 @@ A simple web app to [INSERT PURPOSE]
 [INERT Commands/instructions, examples, screen shots etc]
 
 # Build process
-I collaborated with other @Makers students to create this code.
+I collaborated with other [@Makersacademy](https://github.com/makersacademy) students to create this code.
 
 ## Skills we were learning via this build
 * :space_invader: use an effective debugging process for web applications
