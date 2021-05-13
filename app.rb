@@ -4,6 +4,7 @@ require 'sinatra/base'
 require 'sinatra/reloader'
 require 'rack'
 
+# Battle class runs the webapp game functionality
 class Battle < Sinatra::Base
   enable :sessions
 
