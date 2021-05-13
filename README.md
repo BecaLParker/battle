@@ -2,7 +2,7 @@
 Makers Week 3 Pair-Programming challenge
 
 # What does this code do?
-A simple web app to [INSERT PURPOSE]
+A simple web app to run a 2-player, monster-based battle game. 
 
 # Setup
 [INSERT]
