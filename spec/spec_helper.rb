@@ -4,6 +4,7 @@ require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
 require './app'
+require 'features/web_helpers'
 
 ENV['RACK_ENV'] = 'test'
 Capybara.app = Battle
