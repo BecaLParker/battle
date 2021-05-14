@@ -2,6 +2,7 @@
 
 require 'capybara/rspec'
 require_relative '../../app'
+require_relative '../../lib/game'
 
 Capybara.app = Battle
 
@@ -16,7 +17,6 @@ feature 'attacking' do
   it 'reduces HP' do
     sign_in_and_play
     click_button('Attack')
-
     expect(page).to have_content '90 HP'
   end
 end
