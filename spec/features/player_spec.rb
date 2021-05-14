@@ -10,7 +10,4 @@ describe Player do
       expect(john.name).to eq 'John'
     end
   end
-
-  describe '#hit_points' do
-  end
 end
