@@ -10,4 +10,9 @@ describe Player do
       expect(john.name).to eq 'John'
     end
   end
+  describe '#hp' do
+    it 'players start with 100 HP' do
+      expect(john.hp).to eq Player::DEFAULT_HP
+    end
+  end
 end
